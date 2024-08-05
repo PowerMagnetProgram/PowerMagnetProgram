@@ -16,6 +16,10 @@ PAYMENT_PROVIDER_TOKEN = "PAYMENT_PROVIDER_TOKEN"
 TOTAL_VOTER_COUNT = 3
 
 
+# TO CREATE BOT API KEY AND USERNAME QUIKLY SEARCH BOTFATHER ON TELEGRAM AND SET UP A NEW BOT ANS USER NAME . API KEY WOULD BE GIVEN 
+# INSERT THIS API KEY INTO THIS SOFTWARE AND RUN
+
+
 # Enable logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
@@ -30,8 +34,8 @@ GENDER, PHOTO, LOCATION, BIO = range(4)
 
 """Learn Python Here!"""
 
-TOKEN = '7232753987:AAGjGY-751d6KLbk2RHB1K9sMl7Lrhv7c2w'
-BOT_USERNAME = '@Power_Magnet_Program_bot'
+TOKEN = 'INSERT BOT API KEY HERE'
+BOT_USERNAME = '@INSERT BOT USERNAME HERE'
 
 
 
@@ -373,7 +377,7 @@ async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> N
 def main() -> None:
     """Run the bot."""
     # Create the Application and pass it your bot's token.
-    application = Application.builder().token("7232753987:AAGjGY-751d6KLbk2RHB1K9sMl7Lrhv7c2w").build()
+    application = Application.builder().token("INSERT BOT API KEY HERE").build()
     
     print('Power Magnet Program bot hiring ...')
     print("The Algorithm of Programmed Thought..........")
